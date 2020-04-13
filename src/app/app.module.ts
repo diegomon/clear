@@ -22,7 +22,7 @@ import {NewsModule} from './news/news.module';
     QuestionnaireModule,
     MainModule,
     MapsModule,
-    NewsModule
+    NewsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
