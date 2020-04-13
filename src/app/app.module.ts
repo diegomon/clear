@@ -8,6 +8,7 @@ import { CoreModule } from './core/core.module';
 import {QuestionnaireModule} from './questionnaire/questionnaire.module';
 import {MainModule} from './main/main.module';
 import {MapsModule} from './maps/maps.module';
+import {NewsModule} from './news/news.module';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import {MapsModule} from './maps/maps.module';
     EmployeesModule,
     QuestionnaireModule,
     MainModule,
-    MapsModule
+    MapsModule,
+    NewsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
